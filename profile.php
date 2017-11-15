@@ -14,7 +14,12 @@ include('session.php');
 <b id="logout"><a href="logout.php">Log Out</a></b>
 </div>
 
-
+AWS DynamoDB Management Table Parameters will be displayed here...
+<br>
 AWS DynamoDB Update Scripts will be here...
+
+<br>
+
+Zabbix dashboard stats will be displayed in a frame...
 </body>
 </html>

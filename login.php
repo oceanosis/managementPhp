@@ -19,8 +19,8 @@ $password=$_POST['password'];
 
 $username = stripslashes($username);
 $password = stripslashes($password);
-$username = mysql_real_escape_string($username);
-$password = mysql_real_escape_string($password);
+// $username = mysql_real_escape_string($username);
+//$password = mysql_real_escape_string($password);
 
 
 // Selecting Database
@@ -35,7 +35,7 @@ header("location: profile.php"); // Redirecting To Other Page
 } else {
 $error = "Username or Password is invalid";
 }
-mysql_close($connection); // Closing Connection
+//mysql_close($connection); // Closing Connection
 }
 }
 ?>
